@@ -45,7 +45,7 @@ const TimeLine = () => {
         <Button
           variant={getButtonVariant("1d")}
           onClick={() => handleClick("1y")}
-          style={{ background: selectedRange === "1y" ? "#5c6bc0" : "", marginRight: '20px' }}
+          style={{ background: selectedRange === "1y" ? "#5c6bc0" : "", marginRight: '20px', color: '#fff' }}
         >
           1Y
         </Button>
