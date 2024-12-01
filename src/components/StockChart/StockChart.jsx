@@ -7,8 +7,6 @@ import {
   BarSeries,
   XAxis,
   YAxis,
-  ToolTipTSpanLabel,
-  ToolTipText,
 } from "react-financial-charts";
 
 const StockChart = ({ stockData }) => {
